@@ -19,19 +19,19 @@ int main(void)
     f = f * 100;
     f = round(f);
     
-    while (f > 25) {
+    while (f >= 25) {
         f = f - 25;
         Q++;
     }
     printf("Quarters = %i\n", Q);
     
-    while (f > 10) {
+    while (f >= 10) {
         f = f - 10;
         D++;
     }
     printf("Dimes = %i\n", D);
     
-    while (f > 5) {
+    while (f >= 5) {
         f = f - 5;
         N++;
     }
